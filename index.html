@@ -21,15 +21,20 @@
                 <h5 class="text-muted">Insira um falor mínimo e máximo para o sorteio.</h5>
             </div>
         </div>
-        <divc class="form-row justify-content-center">
+        <div class="form-row justify-content-center">
             <div class="col-3 col-sm-2 col-md-2">
-                <input type="number" class="form-control" placeholder="Minimo">
+                <input id="min-number" type="number" class="form-control" placeholder="Minimo">
             </div>
             <div class="col-3 col-sm-2 col-md-2">
-                <input type="number" class="form-control" placeholder="Maximo">
+                <input id="max-number" type="number" class="form-control" placeholder="Maximo">
             </div>
             <div class="col-3 col-sm-2 col-md-2 text-center">
-                <button type="button" class="btn btn-success">Sortear</button>
+                <button id="drawn-btn" type="button" class="btn btn-success">Sortear</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <span id="display-number" class="h1">sd</span>
             </div>
         </div>
     </div>

@@ -9,4 +9,8 @@
     .title-app{
         font-size: 4rem;
     }
+
+    #display-number{
+        font-size: 12rem;
+    }
 }
