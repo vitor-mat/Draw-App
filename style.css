@@ -5,12 +5,16 @@
     overflow: hidden;
 }
 
+#display-number{
+    font-size: 10rem;
+}
+
 @media(min-width: 576px){
     .title-app{
         font-size: 4rem;
     }
 
     #display-number{
-        font-size: 12rem;
+        font-size: 16rem;
     }
 }
